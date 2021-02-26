@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@functions/*": ["src/functions/*"],
+      "@utils/*": ["src/utils/*"],
+    },
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

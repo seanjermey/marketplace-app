@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@actions/*": ["src/actions/*"],
+      "@apps/*": ["src/apps/*"],
+      "@components/*": ["src/components/*"],
+      "@functions/*": ["src/functions/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@reducers/*": ["src/reducers/*"],
+      "@types/*": ["src/types/*"],
+      "@utils/*": ["src/utils/*"],
+    },
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
